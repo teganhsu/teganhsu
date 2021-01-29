@@ -1,0 +1,613 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>Tegan's Food Diary!</title> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
+	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+</head> 
+<body> 
+
+   
+<div data-role="page" id="home">
+
+	<div data-role="header">
+		<h1>Tegan's Food Diary! 🍽</h1>
+	</div><!-- /header -->
+
+    <div data-role="content"> 
+        <p align="center"><img src="assets/home.jpg"></p> 
+	</div><!-- /content -->
+        
+	<div data-role="footer">
+		<div data-role="navbar">
+	       <ul>
+               <li><a href="#intro" data-icon="info">簡介</a></li>
+               <li><a href="#list" data-icon="star">美食列表</a></li>
+               <li><a href="#dist" data-icon="grid" >分區美食列表</a></li>
+		       <li><a href="#home" data-icon="home" class="ui-btn-active">回首頁</a></li>
+	       </ul>
+        </div><!-- /navbar -->
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<div data-role="page" id="intro">
+
+	<div data-role="header">
+		<h1>Tegan's Food Diary! 🍽</h1>
+	</div><!-- /header -->
+
+    <div data-role="content"> 
+        <p align="center"><img src="assets/IMG_9343.JPG"></p> 
+        <p align="center">🥞🍙🍝🍰🍱🍕🍳🍧🥗🌮</p>
+        <p align="center">因為平時喜歡嘗試各種美食和光顧有特色的餐廳並且記錄自己吃過的美食，我的手機裡滿滿都是美
+        <p align="center">食的照片，另外，平時我也很喜歡看美食部落格，每當我去一間餐廳因為選擇困難無法決定要吃什
+        <p align="center">麼時我就會上網找別人的心得作為參考，因此我想要製作一個屬於我自己的網頁，和大家分享我的
+        <p align="center">心得，提供大家一些參考的資訊，此外也想要透過這個網站以美食的角度去介紹高雄這個城市。</p>
+	</div><!-- /content -->
+        
+	<div data-role="footer">
+		<div data-role="navbar">
+	       <ul>
+               <li><a href="#intro" data-icon="info" class="ui-btn-active">簡介</a></li>
+               <li><a href="#list" data-icon="star">美食列表</a></li>
+               <li><a href="#dist" data-icon="grid" >分區美食列表</a></li>
+		       <li><a href="#home" data-icon="home">回首頁</a></li>
+	       </ul>
+        </div><!-- /navbar -->
+	</div><!-- /footer -->
+</div><!-- /page -->
+        
+<div data-role="page" id="list">
+
+	<div data-role="header">
+		<h1>Tegan's Food Diary! 🍽</h1>
+	</div><!-- /header -->
+
+    <div data-role="content">
+        <ul data-role="listview" data-theme="c">
+	       <li><a href="#a">漢來上海湯包 高雄夢時代店</a></li>
+	       <li><a href="#b">woosaパンケーキ 屋莎鬆餅屋 高雄遠百店</a></li>
+	       <li><a href="#c">Kingmauii 金茂宜咖啡 美術店</a></li>
+           <li><a href="#d">厚得福湯包麵食專賣店</a></li>
+           <li><a href="#e">スシロー壽司郎 高雄夢時代店</a></li>
+           <li><a href="#f">來呷飯 川食堂</a></li>
+           <li><a href="#h">Eagle 義來藝去-裕誠店</a></li>
+           <li><a href="#i">威力早午餐 We like brunch</a></li>
+           <li><a href="#j">佐渡森</a></li>
+           <li><a href="#k"></a></li>
+           <li><a href="#l"></a></li>
+           <li><a href="#m"></a></li>
+        </ul>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<div data-role="navbar">
+	       <ul>
+               <li><a href="#intro" data-icon="info">簡介</a></li>
+               <li><a href="#list" data-icon="star" class="ui-btn-active">美食列表</a></li>
+               <li><a href="#dist" data-icon="grid" >分區美食列表</a></li>
+		       <li><a href="#home" data-icon="home">回首頁</a></li>
+	       </ul>
+        </div><!-- /navbar -->
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+        
+<div data-role="page" id="a">
+
+    <div data-role="header">
+        <h1>漢來上海湯包 高雄夢時代店</h1>
+    </div><!-- /header -->
+
+    <div data-role="content"> 
+        <p align="center"><img src="assets/IMG_8186 2.jpg"></p> 
+        <p align="center">肉絲蛋炒飯 $160</p>
+        <p align="center">金黃色的蛋炒飯粒粒分明，不會太油，帶著淡淡蛋黃的香氣，我覺得是個蠻中庸的炒飯</p>
+        <p align="center"><img src="assets/IMG_8187.jpg"></p>
+        <p align="center">蝦肉紅油抄手 $165</p>
+        <p align="center">紅油抄手裡面有著滿滿的料，完整的一隻蝦子和豬肉被包裹在薄透的麵皮，抄手的醬汁很香不會過於</p>
+        <p align="center">死鹹，口味和鼎泰豐的紅油抄手蠻像的，但價格相對親民許多，他的辣是屬於麻辣的那種辣，淋在在</p>
+        <p align="center">炒飯上超香超好吃！</p>
+        <p align="center"><img src="assets/IMG_8189.jpg"></p>
+        <p align="center">招牌小籠湯包 $95</p>
+        <p align="center">小籠包的皮非常薄，從外皮就透出裡面的湯汁，他的湯汁是比較屬於清爽的那種，不會過於油膩，也</p>
+        <p align="center">不會覺得有負擔，此外他的價格非常親民，和鼎泰豐的小籠包比起來便宜許多，品質也不錯</p>
+        <p align="center"><img src="assets/IMG_8551.jpg"></p>
+        <p align="center">蟹粉生煎湯包 $140</p>
+        <p align="center">這一道料理是全部當中我最喜歡的，湯包底部被煎的酥酥脆脆，帶有淡淡的焦香，咬開來滿滿的湯汁</p>
+        <p align="center">在口中綻放，裡面的湯汁比小龍湯包裡的湯汁更加濃郁、豐厚</p>
+        <p align="center"><img src="assets/IMG_8550.jpg"></p>
+        <p align="center">酸辣湯 $140</p>
+        <p align="center">第一次吃到料那麼豐富的酸辣湯，隨便一撈都是滿滿的豆腐、筍子和肉絲，cp值非常高！他的酸度比外</p>
+        <p align="center">面一般的酸辣湯少很多，對不喜歡吃太酸的我來說他的味道非常剛好，但對喜歡酸一點的人來說可能會</p>
+        <p align="center">不夠味，另外他們的酸辣湯可以選擇辣或是不辣，不敢吃辣的人也可以吃吃看喔～</p>
+        <a href="https://goo.gl/maps/ChF15FjebSrrtMJt5">
+             <p align="center">地址：806高雄市前鎮區中華五路789號綠區 B1F</p>
+        </a>
+    </div><!-- /content -->
+
+    <div data-role="footer"> 
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#intro" data-icon="info">簡介</a></li>
+                <li><a href="#list" data-icon="star"  class="ui-btn-active">美食列表</a></li>
+                <li><a href="#dist" data-icon="grid" >分區美食列表</a></li>
+                <li><a href="#home" data-icon="home" class="ui-btn-active">回首頁</a></li>
+            </ul>
+        </div><!-- /navbar -->
+    </div><!-- /footer -->
+</div><!-- /page -->
+        
+ <div data-role="page" id="b">
+
+    <div data-role="header">
+        <h1>woosaパンケーキ 屋莎鬆餅屋 高雄遠百店</h1>
+    </div><!-- /header -->
+
+    <div data-role="content"> 
+        <p align="center"><img src="assets/IMG_1107.jpg"></p> 
+        <p align="center">（右）莓果塔冰淇淋鬆餅 $310</p>
+        <p align="center"><img src="assets/IMG_6301.jpg"></p>
+        <p align="center">蒙布朗冰淇淋鬆餅 $310</p>
+        <p align="center">兩種口味的鬆餅本體都是一樣的，差別在於旁邊的冰淇淋和搭配的配料，woosa的鬆餅和一般的鬆餅</p>
+        <p align="center">非常不一樣，像是雲朵一般非常的蓬鬆，入口即化，裡面有著滿滿的奶香，味道有點像是烤布蕾又像</p>
+        <p align="center">是剛烤好的雞蛋糕，香氣十足，配著冰淇淋吃十分解膩，他們的鬆餅真的是我吃過的鬆餅中最好吃的！</p>
+        <p align="center"><img src="assets/IMG_1100.jpg"></p>
+        <p align="center">煙燻鮭魚明太子海膽麵 $280</p>
+        <p align="center">這道也是每次必點的餐點，每一個貝殼麵外都被香氣十足的醬汁包覆著，可以吃到淡淡海膽的香氣，</p>
+        <p align="center">此外裡面還加了一些番茄，讓整體的味道更有層次感，這道餐點對我來說份量剛剛好，但對一些食量</p>
+        <p align="center">比較大的人來說可能會吃不飽</p>
+        <p align="center"><img src="assets/IMG_6299.jpg"></p>
+        <p align="center">香煎嫩雞栗子湯丼飯 $310</p>
+        <p align="center">一碗丼飯旁附小小一壺雞湯，比起丼飯我覺得他的口感更像是燉飯，米飯被燉的非常軟但卻還是吃得</p>
+        <p align="center">到飯的顆粒，每一粒米滿滿都是栗子的香氣，配上雞湯又是另一種風味，裡面的料非常豐富，有許多</p>
+        <p align="center">雞肉、栗子、香菇丁</p>
+        <a href="https://goo.gl/maps/dokJJPk9DCSgP6nZ6">
+             <p align="center">地址：802高雄市苓雅區三多四路21號2樓</p>
+        </a>
+    </div><!-- /content -->
+
+    <div data-role="footer"> 
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#intro" data-icon="info">簡介</a></li>
+                <li><a href="#list" data-icon="star" class="ui-btn-active">美食列表</a></li>
+                <li><a href="#dist" data-icon="grid" >分區美食列表</a></li>
+                <li><a href="#home" data-icon="home">回首頁</a></li>
+            </ul>
+        </div><!-- /navbar -->
+    </div><!-- /footer -->
+</div><!-- /page -->
+        
+        
+<div data-role="page" id="c">
+
+    <div data-role="header">
+        <h1>Kingmauii 金茂宜咖啡 美術店</h1>
+    </div><!-- /header -->
+
+    <div data-role="content">
+        <p align="center"><img src="assets/IMG_8295.JPG"></p>
+        <p align="center">羅勒水波雞腿湯義麵 $260</p>
+        <p align="center">第一次看到這種湯的義大利麵，很好奇他的味道是怎樣所以就點了，原本以為做湯的那味道應該不會</p>
+        <p align="center">像一般義大利麵醬汁那麼的濃郁，沒想到雖然他的湯是那種流動性頗高的湯汁但味道卻非常濃郁，濃</p>
+        <p align="center">濃的奶香非常好吃！另外他的雞腿排被炸得非常酥脆，油脂被收的非常乾，有點像是用烤的口感，</p>
+        <p align="center">但裡面的肉質依然鮮嫩多汁</p>
+        <p align="center"><img src="assets/IMG_6578.jpg"></p>
+        <p align="center">冷燻鮭魚班尼迪克蛋 $220</p>
+        <p align="center">被烤得酥脆的歐式麵包配上煙燻鮭魚、起司以及半熟蛋，口感豐富、香氣四溢，配上一些生菜沙拉非</p>
+        <p align="center">常清爽，一旁放了半顆的焦糖香吉士，超級好吃！酸酸甜甜的，是個很讚的餐後甜點，這道餐點對我</p>
+        <p align="center">來說份量非常剛好，不會吃的太撐</p>
+        <p align="center"><img src="assets/IMG_5181.jpg"></p>
+        <p align="center">挪威鮭魚香檸南瓜風味飯 $300</p>
+        <p align="center">金黃色燉飯被煮的非常軟爛，非常好入口，飄散著淡淡的南瓜香和奶香，，鮭魚的份量不小，大概快</p>
+        <p align="center">要一個手掌大，非常推薦給鮭魚愛好者</p>
+        <p align="center"><img src="assets/IMG_4394.jpg"></p>
+        <p align="center">低溫雞胸凱薩沙拉 $180</p>
+        <p align="center">這倒是我覺得cp值非常高的餐點，滿滿的生菜以及多汁的雞胸肉，雞胸肉被烹調的非常軟嫩，保留著</p>
+        <p align="center">雞肉原來的水分，完完全全不會柴，另外裡面加了滿滿的起司片，喜歡起司的人絕不能錯過!他的調味</p>
+        <p align="center">非常簡單，很單純，配上堅果和麵包丁，每一口的層次感都很豐富</p>
+        <a href="https://goo.gl/maps/fxNe8VoUhWAQwEE38">
+             <p align="center">地址：804高雄市鼓山區美術東五路75號</p>
+        </a>
+    </div><!-- /content -->
+
+    <div data-role="footer"> 
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#intro" data-icon="info">簡介</a></li>
+                <li><a href="#list" data-icon="star" class="ui-btn-active">美食列表</a></li>
+                <li><a href="#dist" data-icon="grid" >分區美食列表</a></li>
+                <li><a href="#home" data-icon="home">回首頁</a></li>
+            </ul>
+        </div><!-- /navbar -->
+    </div><!-- /footer -->
+</div><!-- /page -->
+        
+<div data-role="page" id="d">
+
+    <div data-role="header">
+        <h1>厚得福湯包麵食專賣店</h1>
+    </div><!-- /header -->
+
+    <div data-role="content"> 
+        <p align="center"><img src="assets/IMG_8989.jpg"></p>
+        <p align="center">豬肉捲餅 $90</p>
+        <p align="center">這道料理大概是這間餐廳最熱門的餐點，餅皮被煎的非常酥脆，但完全不會太油，裡面包的是青蔥和豬</p>
+        <p align="center">肉片及少許的醬油高，真的很好吃，調味也很適中，不會太鹹，豬肉配上青蔥真的是超級香！</p>
+        <p align="center"><img src="assets/IMG_8748.jpg"></p>
+        <p align="center">炒三鮮貓耳朵 $80</p>
+        <p align="center">貓耳朵就像是縮小版的麵疙瘩，比起麵疙瘩，我覺得貓耳朵的大小更適中，比較入味，不會有過多的</p>
+        <p align="center">麵糰味，他們的貓耳朵真的炒得很入味，料也很豐富，份量也不小，cp值很高～</p>
+        <p align="center"><img src="assets/IMG_8994.jpg"></p>
+        <p align="center">甜烙餅 $60</p>
+        <p align="center">甜烙餅是我在這間餐廳的最愛！吃過一次就愛上，甜烙餅其實就像是甜的抓餅，烙餅被煎的非常酥脆</p>
+        <p align="center">，而且不會很油，就算冷掉了也完全不影響口感，還是超級脆！甜甜的麥芽香有點像是太陽餅的內餡</p>
+        <p align="center">，但完全不會太甜，甜度非常剛好</p>
+        <p align="center"><img src="assets/IMG_8749.jpg"></p> 
+        <p align="center">鮮肉湯包 $90</p>
+        <p align="center">我覺得他們得湯包就是很普通的湯包，和外面其他平價餐天吃起來差不多，沒有什沒讓人驚艷的感覺</p>
+        <p align="center"><img src="assets/IMG_8993.jpg"></p>
+        <p align="center">蔥油餅 $50</p>
+        <p align="center">他們的蔥油餅並不是外面常見的那種薄薄的蔥油餅，而是後的蔥油餅，吃起來不會太油，但是我覺得</p>
+        <p align="center">裡面的蔥不夠多，有點小失望</p>
+        <p align="center"></p>
+        <a href="https://g.page/holdfu-tw?share">
+             <p align="center">地址：802高雄市苓雅區成功一路214號</p>
+        </a>
+    </div><!-- /content -->
+
+    <div data-role="footer"> 
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#intro" data-icon="info">簡介</a></li>
+                <li><a href="#list" data-icon="star" class="ui-btn-active">美食列表</a></li>
+                <li><a href="#dist" data-icon="grid" >分區美食列表</a></li>
+                <li><a href="#home" data-icon="home">回首頁</a></li>
+            </ul>
+        </div><!-- /navbar -->
+    </div><!-- /footer -->
+</div><!-- /page -->
+        
+<div data-role="page" id="e">
+
+    <div data-role="header">
+        <h1>スシロー壽司郎 高雄夢時代店</h1>
+    </div><!-- /header -->
+
+    <div data-role="content"> 
+        <p align="center"><img src="assets/IMG_8641.jpg"></p> 
+        <p align="center">大切生鮭魚 $60</p>
+        <p align="center">每次來必點！吃了一次就愛上，和$40的鮭魚比起來他的油脂更加豐富，鮭魚也比較厚、比較大塊，</p>
+        <p align="center">口感也比較好，吃進嘴裡滿滿都是鮭魚油脂的香氣但一點也不會腥</p>
+        <p align="center"><img src="assets/IMG_8640.jpg"></p>
+        <p align="center">炸蝦酪梨卷 $40</p>
+        <p align="center">清爽的鮭魚配上炸蝦非常解膩，裡面的炸蝦也不會很小塊，上面灑了一些明太子，入口之後可以感</p>
+        <p align="center">受到他們在嘴裡綻開，口感很豐富</p>
+        <p align="center"><img src="assets/IMG_8642.jpg"></p>
+        <p align="center">炙燒鮭魚三種 $60</p>
+        <p align="center">這是不定期推出的期間限定商品，最前面的是炙燒生鮭田樂味噌，他的味噌帶有一點甜味，炙燒過</p>
+        <p align="center">後有中焦糖的感覺，但卻不會覺得膩，中間的是炙燒起司鮭魚，喜歡起司的人絕不能錯過，炙燒過</p>
+        <p align="center">後的起司味道更加濃郁，滿滿都是起司的香氣，我覺得這一款不必配醬油就很有味道了，而且吃一</p>
+        <p align="center">個剛剛好，吃太多可能會比較膩一點，最後面的是炙燒羅勒鮭魚，這款也是不必配醬油就很有味道</p>
+        <p align="center">了，起司和羅勒非常搭！可以感受到濃濃羅勒的香氣和起司結合在一起 </p>
+        <p align="center"><img src="assets/IMG_8758.jpg"></p>
+        <p align="center">生拌鮭魚軍艦 $40</p>
+        <p align="center">這衣款和前面的比起來就清爽很多，冰涼的生鮭魚拌上了醬油和一些調味料，味道非常香，也不會</p>
+        <p align="center">太鹹，吃起來不會有負擔</p>
+        <p align="center"><img src="assets/star.JPG"></p>
+        <p align="center">星鰻 $40</p>
+        <p align="center">我本身不太喜歡鰻魚沙沙的口感，但這款真的蠻好吃的～雖然他的口感和一般的鰻魚一樣，但他的</p>
+        <p align="center">調味真的還蠻好吃的，是有醃過，帶有一點甜的香氣，個人蠻喜歡他的口味</p>
+        <p align="center"></p>
+        <a href="https://goo.gl/maps/i3nJzAhPRkgrXcDp8">
+             <p align="center">地址：806高雄市前鎮區中華五路789號藍區6樓</p>
+        </a>
+    </div><!-- /content -->
+
+    <div data-role="footer"> 
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#intro" data-icon="info">簡介</a></li>
+                <li><a href="#list" data-icon="star" class="ui-btn-active">美食列表</a></li>
+                <li><a href="#dist" data-icon="grid" >分區美食列表</a></li>
+                <li><a href="#home" data-icon="home">回首頁</a></li>
+            </ul>
+        </div><!-- /navbar -->
+    </div><!-- /footer -->
+</div><!-- /page -->
+        
+<div data-role="page" id="f">
+
+    <div data-role="header">
+        <h1>來呷飯 川食堂</h1>
+    </div><!-- /header -->
+
+    <div data-role="content"> 
+        <p align="center"><img src="assets/IMG_8973.jpg"></p> 
+        <p align="center">梅醬弄雞 $138</p>
+        <p align="center">當時看菜單上寫說是到酸酸甜甜的，料理也不太知道到底是什麼就點了，沒想到意外的好吃，雖然</p>
+        <p align="center">我吃不太出什麼酸味，但有淡淡的甜味，和淡淡梅子的相氣，裡面除了雞肉以外還有小黃瓜，讓整</p>
+        <p align="center">個料理更加清爽</p>
+        <p align="center"><img src="assets/IMG_8976.jpg"></p>
+        <p align="center">干鍋雲耳豆乳雞 $158</p>
+        <p align="center">這道也是我非常喜歡的一道料理，裡面有雲耳和雞丁，雞肉有種小吃攤烤肉的香氣，被炒得非常香</p>
+        <p align="center">、非常入味，份量也不小，是到高cp值的料理</p>
+        <p align="center"><img src="assets/IMG_8425.jpg"></p>
+        <p align="center">老罈酸菜魚 $168</p>
+        <p align="center">這道cp值也超高！裡面有滿滿的魚肉和冬粉，魚肉非常軟嫩、新鮮，放入口中會馬上散開那種，他</p>
+        <p align="center">的酸菜味道不會太重，平時我不太喜歡吃酸菜的，但這道料理我可以！！</p>
+        <a href="https://g.page/laijiaben-YC?share">
+             <p align="center">地址：804高雄市鼓山區裕誠路1910號</p>
+        </a>
+    </div><!-- /content -->
+
+    <div data-role="footer"> 
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#intro" data-icon="info">簡介</a></li>
+                <li><a href="#list" data-icon="star" class="ui-btn-active">美食列表</a></li>
+                <li><a href="#dist" data-icon="grid" >分區美食列表</a></li>
+                <li><a href="#home" data-icon="home">回首頁</a></li>
+            </ul>
+        </div><!-- /navbar -->
+    </div><!-- /footer -->
+</div><!-- /page -->
+        
+<div data-role="page" id="h">
+
+    <div data-role="header">
+        <h1>Eagle 義來藝去-裕誠店</h1>
+    </div><!-- /header -->
+
+    <div data-role="content"> 
+        <p align="center"><img src="assets/IMG_8007.jpg"></p> 
+        <p align="center">青醬蛤蜊嫩雞墨魚麵 $218</p>
+        <p align="center">青醬帶有濃濃羅勒和乳酪的香氣，裡面的蛤蠣份量給得很多，雞肉也很足夠，但我覺得和外面其他</p>
+        <p align="center">餐廳賣的義大利麵沒有太大的差別，不錯吃，但沒有特別驚豔的感覺</p>
+        <p align="center"><img src="assets/IMG_8009.jpg"></p>
+        <p align="center">蒜香松阪豬溫沙拉 $238</p>
+        <p align="center">這道料理非常推！！！裡面有滿滿的松版豬，松版豬被烹調的非常適中，外是被烤過的焦香，裡面</p>
+        <p align="center">的肉質卻依然非常軟嫩多汁，生菜沙拉也很豐富，非常推薦在減肥的人來吃，不但可以補充纖維，</p>
+        <p align="center">也可以補充滿滿的蛋白質～</p>
+        <p align="center"><img src="assets/IMG_8013.jpg"></p>
+        <p align="center">櫻桃鴨胸番紅花燉飯佐卡菲醬 $260</p>
+        <p align="center">米飯被燉的非常入味，有淡淡的南瓜香氣，他們的鴨胸不是被烹調很久的那種鴨胸，他的肉質算是</p>
+        <p align="center">偏軟嫩的，這道料理是期間限定的特別餐點，想要嚐鮮於是就點來吃吃看～</p>
+        <a href="https://goo.gl/maps/S8rCF1P6C5GPpGsN9">
+             <p align="center">地址：804高雄市鼓山區裕誠路1898號</p>
+        </a>
+    </div><!-- /content -->
+
+    <div data-role="footer"> 
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#intro" data-icon="info">簡介</a></li>
+                <li><a href="#list" data-icon="star" class="ui-btn-active">美食列表</a></li>
+                <li><a href="#ist" data-icon="grid" >分區美食列表</a></li>
+                <li><a href="#home" data-icon="home">回首頁</a></li>
+            </ul>
+        </div><!-- /navbar -->
+    </div><!-- /footer -->
+</div><!-- /page -->
+        
+<div data-role="page" id="i">
+
+    <div data-role="header">
+        <h1>威力早午餐 We like brunch</h1>
+    </div><!-- /header -->
+
+    <div data-role="content"> 
+        <p align="center"><img src="assets/IMG_9967.jpg"></p> 
+        <p align="center"><img src="assets/IMG_9961.jpg"></p>
+        <p align="center">紫薯起司ＱＱ蛋餅組合 $80</p>
+        <p align="center">滿滿的紫薯泥和起司在蛋餅裡完美結合，淡淡的紫薯香氣，是很純的紫薯泥，沒有其他像是糖的</p>
+        <p align="center">添加物。除了蛋餅以外還有雙色ＱＱ球，外皮酥脆卻一點也不油膩，外皮比較像是用烤的口感，</p>
+        <p align="center">吃多了也不會膩，裡面也非常Ｑ彈有嚼勁，吃起來不會有空虛感。</p>
+        <p align="center"><img src="assets/IMG_9965.jpg"></p>
+        <p align="center"><img src="assets/IMG_9970.jpg"></p>
+        <p align="center">芋見肉鬆蛋土司 $50</p>
+        <p align="center">芋泥帶著非常天然的芋頭味，不會過甜，口感不會乾還蠻濕潤的，和肉鬆完美結合，一點也不衝</p>
+        <p align="center">突，他的肉鬆是偏粉的肉鬆，口味上吃起來應該是有參雜一些魚鬆。雖然好吃，但吃多了應該還</p>
+        <p align="center">是會膩，建議多人share。</p>
+        <p align="center"><img src="assets/IMG_9968.jpg"></p>
+        <p align="center">草莓鮮奶吐司mix鮮奶油 $60</p>
+        <p align="center">非常推這一個餐點！裡面的奶油奶香濃厚卻一點也不油膩，非常清爽，裡面的草莓也很多，除了</p>
+        <p align="center">剖面圖的草莓以外，後面還有草莓喔！CP值非常高，大家一定要來試試！</p>
+        <a href="https://g.page/welikebrunch?share">
+             <p align="center">地址：807高雄市三民區河堤路488號</p>
+        </a>
+    </div><!-- /content -->
+
+    <div data-role="footer"> 
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#intro" data-icon="info">簡介</a></li>
+                <li><a href="#list" data-icon="star" class="ui-btn-active">美食列表</a></li>
+                <li><a href="#ist" data-icon="grid" >分區美食列表</a></li>
+                <li><a href="#home" data-icon="home">回首頁</a></li>
+            </ul>
+        </div><!-- /navbar -->
+    </div><!-- /footer -->
+</div><!-- /page -->
+    
+<div data-role="page" id="j">
+
+    <div data-role="header">
+        <h1>佐渡森</h1>
+    </div><!-- /header -->
+
+    <div data-role="content">  
+        <p align="center"><img src="assets/IMG_9298.jpg"></p>
+        <p align="center">薑汁豬肉丼 $160</p>
+        <p align="center">滿滿的豬肉覆蓋在豬肉上，豬肉被煮的非常入味，但又不會過鹹，怕薑味的人也可以點這一道料</p>
+        <p align="center">理喔，因為他幾乎沒有薑的辣味，最上面的溫泉蛋的蛋黃和丼飯拌在一起非常好吃，除了豬肉以</p>
+        <p align="center">外裡面還有洋蔥喔，最底下也有像是壽喜燒的醬汁，非常夠味。</p>
+        <p align="center"><img src="assets/IMG_6292.jpg"></p>
+        <p align="center">勝丼（豬排） $160</p>
+        <p align="center">滿滿的洋蔥鋪在豬排上。原來勝丼就是炸豬排丼，他的豬排蠻厚實的，口感偏硬有嚼勁，感覺是</p>
+        <p align="center">肌肉較多的部位，沒有太多的油脂，豬排的份量不小，一個人吃還蠻飽的。</p>
+        <p align="center"><img src="assets/IMG_9296.jpg"></p>
+        <p align="center">鮮魚味噌湯 $40</p>
+        <p align="center">沒想到$40的味噌湯裡會有那麼麼多的料，有白蘿蔔、豆腐和魚肉，原本以為裡面的魚肉大概就</p>
+        <p align="center">幾塊碎肉而已，沒想到裡面的魚肉還不小塊呢，而且量也不少喔！湯頭的味道也非常好，不會過鹹。</p>
+        <p align="center"><img src="assets/IMG_6291.jpg"></p>
+        <p align="center">卡滋豬排卷 $160</p>
+        <p align="center">蠻少看到這種裡面是炸豬排的壽司捲，他的豬排和上面勝丼的豬排應該是一樣的，吃起來非常有</p>
+        <p align="center">飽足感，很適合和別人一起分享。</p>
+        <p align="center"><img src="assets/IMG_6288.jpg"></p>
+        <p align="center">炙燒火焰鮭魚捲 $240</p>
+        <p align="center">看起來像是一般的鮭魚握壽司，但鮭魚底下的是壽司卷喔，裡面包了一些清爽的蔬菜和我最愛的</p>
+        <p align="center">酪梨，和鮭魚一起吃非常的清爽，不會覺的膩。</p>
+        <a href="https://goo.gl/maps/i57PPi1tZD5zipRq8">
+             <p align="center">地址：804高雄市鼓山區裕誠路1942號</p>
+        </a>
+    </div><!-- /content -->
+
+    <div data-role="footer"> 
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#intro" data-icon="info">簡介</a></li>
+                <li><a href="#list" data-icon="star" class="ui-btn-active">美食列表</a></li>
+                <li><a href="#ist" data-icon="grid" >分區美食列表</a></li>
+                <li><a href="#home" data-icon="home">回首頁</a></li>
+            </ul>
+        </div><!-- /navbar -->
+    </div><!-- /footer -->
+</div><!-- /page -->
+    
+    
+<div data-role="page" id="dist">
+    
+	<div data-role="header">
+		<h1>Tegan's Food Diary! 🍽</h1>
+	</div><!-- /header -->
+
+    <div data-role="content">
+        <ul data-role="listview" data-theme="c">
+	       <li><a href="#p">鼓山區</a></li>
+	       <li><a href="#r">苓雅區</a></li>
+           <li><a href="#s">前鎮區</a></li>
+           <li><a href="#t">三民區</a></li>
+        </ul>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<div data-role="navbar">
+	       <ul>
+               <li><a href="#intro" data-icon="info">簡介</a></li>
+               <li><a href="#list" data-icon="star" >美食列表</a></li>
+               <li><a href="#dist" data-icon="grid" class="ui-btn-active">分區美食列表</a></li>
+		       <li><a href="#home" data-icon="home">回首頁</a></li>
+	       </ul>
+        </div><!-- /navbar -->
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<div data-role="page" id="p">
+    
+	<div data-role="header">
+		<h1>鼓山區</h1>
+	</div><!-- /header -->
+
+    <div data-role="content">
+        <ul data-role="listview" data-theme="c">
+	       <li><a href="#c">Kingmauii金茂宜咖啡 美術店</a></li>
+           <li><a href="#f">來呷飯 川食堂</a></li>
+           <li><a href="#h">Eagle 義來藝去-裕誠店</a></li>   
+           <li><a href="#j">佐渡森</a></li>
+        </ul>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<div data-role="navbar">
+	       <ul>
+               <li><a href="#intro" data-icon="info">簡介</a></li>
+               <li><a href="#list" data-icon="star" >美食列表</a></li>
+               <li><a href="#dist" data-icon="grid" class="ui-btn-active">分區美食列表</a></li>
+		       <li><a href="#home" data-icon="home">回首頁</a></li>
+	       </ul>
+        </div><!-- /navbar -->
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<div data-role="page" id="r">
+    
+	<div data-role="header">
+		<h1>苓雅區</h1>
+	</div><!-- /header -->
+
+    <div data-role="content">
+        <ul data-role="listview" data-theme="c">
+	       <li><a href="#b">woosaパンケーキ 屋莎鬆餅屋 高雄遠百店</a></li> 
+           <li><a href="#d">厚得福湯包麵食專賣店</a></li>
+        </ul>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<div data-role="navbar">
+	       <ul>
+               <li><a href="#intro" data-icon="info">簡介</a></li>
+               <li><a href="#list" data-icon="star" >美食列表</a></li>
+               <li><a href="#dist" data-icon="grid" class="ui-btn-active">分區美食列表</a></li>
+		       <li><a href="#home" data-icon="home">回首頁</a></li>
+	       </ul>
+        </div><!-- /navbar -->
+	</div><!-- /footer -->
+</div><!-- /page -->
+        
+<div data-role="page" id="s">
+    
+	<div data-role="header">
+		<h1>前鎮區</h1>
+	</div><!-- /header -->
+
+    <div data-role="content">
+        <ul data-role="listview" data-theme="c">
+	       <li><a href="#a">漢來上海湯包 高雄夢時代店</a></li>
+           <li><a href="#e">スシロー壽司郎 高雄夢時代店</a></li>
+        </ul>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<div data-role="navbar">
+	       <ul>
+               <li><a href="#intro" data-icon="info">簡介</a></li>
+               <li><a href="#list" data-icon="star" >美食列表</a></li>
+               <li><a href="#dist" data-icon="grid" class="ui-btn-active">分區美食列表</a></li>
+		       <li><a href="#home" data-icon="home">回首頁</a></li>
+	       </ul>
+        </div><!-- /navbar -->
+	</div><!-- /footer -->
+</div><!-- /page -->
+ 
+    <div data-role="page" id="t">
+    
+	<div data-role="header">
+		<h1>三民區</h1>
+	</div><!-- /header -->
+
+    <div data-role="content">
+        <ul data-role="listview" data-theme="c">
+           <li><a href="#j">佐渡森</a></li>
+        </ul>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<div data-role="navbar">
+	       <ul>
+               <li><a href="#intro" data-icon="info">簡介</a></li>
+               <li><a href="#list" data-icon="star" >美食列表</a></li>
+               <li><a href="#dist" data-icon="grid" class="ui-btn-active">分區美食列表</a></li>
+		       <li><a href="#home" data-icon="home">回首頁</a></li>
+	       </ul>
+        </div><!-- /navbar -->
+	</div><!-- /footer -->
+</div><!-- /page -->
+    
+</body>
+</html>
